@@ -28,8 +28,9 @@
 // Public interface for camera. ViewController only needs to init, start and stop.
 @interface VerihubsCamera : NSObject
 
--(id) initWithController: (UIViewController<VerihubsCameraDelegate>*)c andImageView: (UIImageView*)iv attributesCheck: (bool*)ac;
+-(id) initWithController: (UIViewController<VerihubsCameraDelegate>*)c andImageView: (UIImageView*)iv attributesCheck: (bool*)ac timeout:(int)tiout;
 -(void)setInstruction: (int)total_instruction instruction:(int*) instruction;
+-(void)setLightMode: (bool)mode;
 -(void)start: (int)delay;
 -(void)stop;
 #ifdef __cplusplus
