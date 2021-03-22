@@ -93,7 +93,7 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
             this.callback.sendPluginResult(pluginResult);
             try{
                 JSONObject jsonResult = new JSONObject();
-                jsonResult.put("version", "1.4.1");    
+                jsonResult.put("version", "1.4.2");    
                 this.callback.success(jsonResult);
             }catch(JSONException e){
                 this.callback.error("Error encountered: " + e.getMessage());
