@@ -61,7 +61,7 @@ public class VerihubsAndroidWrapper extends CordovaPlugin {
                     attributes_check[i] = json_attributes_check.getBoolean(i);
                 }
                 stringObj.setString_instruction_head_look_straight("Arahkan wajah ke depan");
-                stringObj.setString_instruction_both_eye_close("Tutup mata selama 2 detik");
+                stringObj.setString_instruction_both_eye_close("Kedipkan mata 2 kali");
                 stringObj.setString_instruction_head_tilt_right("Miringkan kepala ke kanan");
                 stringObj.setString_instruction_head_tilt_left("Miringkan kepala ke kiri");
                 stringObj.setString_instruction_head_look_down("Tundukkan kepala ke bawah");
